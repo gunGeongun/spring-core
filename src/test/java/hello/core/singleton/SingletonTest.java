@@ -26,6 +26,7 @@ public class SingletonTest {
     @Test
     @DisplayName("싱글톤 패턴을 적용한 객체 사용")
     void singletonServiceTest(){
+        //싱글톤패턴 사용
         SingletonService singletonService1 = SingletonService.getInstance();
         SingletonService singletonService2 = SingletonService.getInstance();
         System.out.println("singletonService1 = " + singletonService1);
